@@ -1,0 +1,72 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #FFF8DC;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/ep_naturalwhite.png);
+  font-family: 'Advent Pro';
+}
+
+h1 {
+  font-family: 'Advent Pro';
+  word-spacing: 110px;
+  margin: 10px;
+  height: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  position: static;
+}
+
+#InstagramPhoto > img {
+  align = middle;
+  margin-left: 410px;
+  height: 140px;
+  padding-top: 0px;
+  border-radius: 50%;
+  filter: opacity(100%) hue-rotate(50deg);
+  position: relative;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+a {
+  color:white;
+}
+
+#content {
+  font-family: 'Advent Pro';
+  overflow: auto;
+  height: 100%; 
+}
+#nav, #feature, #footer {
+  font-family: 'Advent Pro';
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.column1, .column2, .column3 {
+  font-family: 'Advent Pro';
+  background-color: gray;
+  width: 300px;
+  float: left;
+  margin: 10px;
+}
+li {
+  display: inline;
+  padding: 5px;
+}
